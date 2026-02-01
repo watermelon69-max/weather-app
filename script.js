@@ -33,12 +33,12 @@ async function checkWeather(city) {
     
     const condition = data.weather[0].main;
 
-    if (condition === "Clouds") weatherIcon.src = "images/clouds.png";
-    else if (condition === "Clear") weatherIcon.src = "images/clear.png";
-    else if (condition === "Rain") weatherIcon.src = "images/rain.png";
-    else if (condition === "Drizzle") weatherIcon.src = "images/drizzle.png";
-    else if (condition === "Mist") weatherIcon.src = "images/mist.png";
-    else if (condition === "Snow") weatherIcon.src = "images/snow.png";
+    if (condition === "Clouds") weatherIcon.src = "clouds.png";
+    else if (condition === "Clear") weatherIcon.src = "clear.png";
+    else if (condition === "Rain") weatherIcon.src = "rain.png";
+    else if (condition === "Drizzle") weatherIcon.src = "drizzle.png";
+    else if (condition === "Mist") weatherIcon.src = "mist.png";
+    else if (condition === "Snow") weatherIcon.src = "snow.png";
     else weatherIcon.src = "images/clear.png";
 
    
